@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% import 'macros.html' as macro %}
+
 <!-- Content block -->
 
 {% block content %}
@@ -10,8 +11,7 @@
         <h2>List of News Sources</h2>
 
         <div class="row">
-
-
+            
             <ul class="list-unstyled">
                 {{ macro.displaySourceList(sources) }}
             </ul>
