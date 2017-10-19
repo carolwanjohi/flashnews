@@ -1,0 +1,21 @@
+<!-- Display news sources -->
+{% macro displaySourceList(source_list) %}
+
+    {% for source in source_list %}
+
+        <!-- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> -->
+        <div class="well col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        
+            <li class="text-center">
+
+                <a href="/source/{{source.name}}">
+                    {{ source.name }}   
+                </a>
+
+            </li>
+
+        </div>
+
+    {% endfor %}
+
+{% endmacro %}
