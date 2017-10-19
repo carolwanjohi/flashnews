@@ -48,6 +48,6 @@ class Article:
         Args:
             publishedAt : The date for the article, in UTC (+0).
         '''
-        date_to_display = publishedAt[0:10]
+        date_to_display = publishedAt[:10]
 
         return date_to_display
