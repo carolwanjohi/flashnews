@@ -29,7 +29,7 @@ As a user I would like:
 
 * Click [Flash News]() <br/>
   or <br/>
-* Copy [Flash News]() and  Paste the link to your prefered browerser
+* Copy [Flash News]() and  Paste the link on your prefered browerser
 
 This requires internet connection.
 
