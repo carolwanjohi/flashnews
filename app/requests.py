@@ -87,8 +87,11 @@ def process_articles(article_list):
         urlToArticle = article_item.get('url')
         publishedAt = article_item.get('publishedAt')
 
+        # Call publish_date_format method to convert date to a display-friendly format
+        date_to_display = Article.publish_date_format(publishedAt)
 
-        article_object = Article(source,title,urlToImage,description,urlToArticle,publishedAt)
+
+        article_object = Article(source,title,urlToImage,description,urlToArticle,date_to_display)
 
         article_results.append(article_object)
 

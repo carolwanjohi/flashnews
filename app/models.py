@@ -1,3 +1,5 @@
+# from datetime import datetime
+
 class Source:
     '''
     Class that defines Source objects
@@ -37,3 +39,15 @@ class Article:
         self.description = description
         self.urlToArticle = urlToArticle
         self.publishedAt = publishedAt
+
+    @classmethod
+    def publish_date_format(cls,publishedAt):
+        '''
+        Function that changes the format of the date from UTC to display-friendly format
+
+        Args:
+            publishedAt : The date for the article, in UTC (+0).
+        '''
+        date_to_display = publishedAt[0:10]
+
+        return date_to_display
