@@ -5,7 +5,7 @@
 ## By **[Carol Wanjohi](https://github.com/carolwanjohi)**
 
 ## Description
-[This]() is a web application that lists various News sources gotten from [News API](https://newsapi.org/). A user can click on a News source and be directed to a page that contains News Articles from the selected News source. The article's title, image, date of publication and preview will be displayed and a user can click on the article to be directed to the source's site to read the entire article.
+[This](https://python-flashnews.herokuapp.com/) is a web application that lists various News sources gotten from [News API](https://newsapi.org/). A user can click on a News source and be directed to a page that contains News Articles from the selected News source. The article's title, image, date of publication and preview will be displayed and a user can click on the article to be directed to the source's site to read the entire article.
 
 ## User Stories
 As a user I would like:
@@ -27,9 +27,9 @@ As a user I would like:
 
 ## Setup/Installation Requirements
 
-* Click [Flash News]() <br/>
+* Click [Flash News](https://python-flashnews.herokuapp.com/) <br/>
   or <br/>
-* Copy [Flash News]() and  Paste the link on your prefered browerser
+* Copy [Flash News](https://python-flashnews.herokuapp.com/) and  Paste the link on your prefered browerser
 
 This requires internet connection.
 
