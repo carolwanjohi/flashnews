@@ -1,9 +1,10 @@
 .source-header {
+    color: #2E4053; 
     font-size: 3.75em;
     text-align: center;
 }
 
-.news-card{
+.well.col-xs-12.col-sm-12.col-md-6.col-lg-6.news-card {
     background-color: #FDFEFE; 
 }
 

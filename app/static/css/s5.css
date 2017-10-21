@@ -1,9 +1,10 @@
 .article-header {
+    color: #2E4053; 
     font-size: 3.75em;
     text-align: center;
 }
 
-.article-card {
+.well.col-xs-12.col-sm-12.col-md-12.col-lg-12.article-card {
     background-color: #FDFEFE;
 }
 
@@ -16,7 +17,7 @@
     font-size: 2.15em;
 }
 
-.article-image {
+img.img-responsive.article-image {
     display: inline-block;
 }
 
