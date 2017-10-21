@@ -1,0 +1,29 @@
+.article-header {
+    font-size: 3.75em;
+    text-align: center;
+}
+
+.article-card {
+    background-color: #FDFEFE;
+}
+
+.publish-date {
+    float: right;
+    font-size: 1em;
+}
+
+.article-title {
+    font-size: 2.15em;
+}
+
+.article-image {
+    display: inline-block;
+}
+
+.article-description {
+    font-size: 2em
+}
+
+.article-link {
+    font-size: 1.75em
+}

@@ -3,8 +3,7 @@
 
     {% for source in source_list %}
 
-        <!-- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> -->
-        <div class="well col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="well col-xs-12 col-sm-12 col-md-6 col-lg-6 news-card">
         
             <li class="text-center">
 
@@ -25,24 +24,33 @@
 
     {% for article in article_list %}
 
-        <!-- <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> -->
-        <div class="well col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="well col-xs-12 col-sm-12 col-md-12 col-lg-12 article-card">
         
             <li class="text-center">
 
-                <h4>    
-                    <a href="{{ article.urlToArticle }}">
+                <h4>
+
+                    <small class="publish-date">{{article.publishedAt}}</small> 
+
+                    <br>
+
+                    <a href="{{ article.urlToArticle }}" class="article-title">
                         {{ article.title }}   
                     </a>
-                    <br/>
-                    <small>{{article.publishedAt}}</small>
-                </h3>
 
-                <img src="{{ article.urlToImage }}" alt="{{ article.title }}" class="img-responsive">
+                </h4>
 
-                <p>{{ article.description }}</p>
+                <img src="{{ article.urlToImage }}" alt="{{ article.title }}" class="img-responsive article-image">
 
-                <a href="{{ article.urlToArticle }}"> Read more...</a>
+                <p>
+                    <span class="article-description">
+                        {{ article.description }} 
+                    </span>
+
+                    <br>
+
+                    <a href="{{ article.urlToArticle }}" class="article-link"> Read more...</a>
+                </p>
 
             </li>
 
